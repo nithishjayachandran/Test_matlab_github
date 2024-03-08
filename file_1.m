@@ -3,4 +3,7 @@
 clear all;
 a = 4;
 b = 6;
-c = [a 0 0; 0 b 0; a b a]
+d = 10;
+c = [a 0 0; 0 b 0; a b a];
+
+simple_multiply(a,b,d)
